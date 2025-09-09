@@ -1,0 +1,49 @@
+Scenario: complex_query
+Query: Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs.
+Time: 2025-09-09T11:18:14.083614Z
+Plan: ['research', 'analysis']
+Memory ID: 0053ceb8-bcb2-497a-aa44-c4704916a389
+Confidence: 0.4429795543352763
+
+Final Answer:
+
+Top sources:  (score=0.46, len=733);  (score=0.45, len=429); Transformer architectures (score=0.42, len=115). Recommendation: prefer '' for this query.
+
+Sources:
+- : Top sources:  (score=0.45, len=429); Transformer architectures (score=0.42, len=115);  (score=0.27, len=353). Recommendation: prefer '' for this query.
+
+Sources...
+- : Transformer architectures: Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence.
+
+: : We learned t...
+- Transformer architectures: Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence....
+- : : We learned that main neural network types include CNNs, RNNs, and Transformers.
+
+Neural networks - overview: Neural networks are a set of algorithms, modeled ...
+
+
+Trace (short):
+- [1757416694] Received query: What are the main types of neural networks?
+- [1757416694] Plan: ['research']
+- [1757416694] -> Running ResearchAgent.search()
+- [1757416694]    Research returned 6 hits
+- [1757416694] Stored memory id: dd1aaa2b-bc77-4e6c-9d07-404499951cc8 (topic: )
+- [1757416694] Received query: Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs.
+- [1757416694] Plan: ['research', 'analysis']
+- [1757416694] -> Running ResearchAgent.search()
+- [1757416694]    Research returned 6 hits
+- [1757416694] -> Running AnalysisAgent.analyze()
+- [1757416694]    Analysis done. Top sources:  (score=0.45, len=429); Transformer architectures (score=0.42, len=115);  (score=0.27, len=353). Recommendation: prefer '' for this query.
+- [1757416694] Stored memory id: 56274341-944a-4847-a7b1-f631bd23e5be (topic: )
+- [1757416694] Received query: What are the main types of neural networks?
+- [1757416694] Plan: ['research']
+- [1757416694] -> Running ResearchAgent.search()
+- [1757416694]    Research returned 6 hits
+- [1757416694] Stored memory id: f5b8080e-a759-4f2a-a6a2-338707b38224 (topic: )
+- [1757416694] Received query: Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs.
+- [1757416694] Plan: ['research', 'analysis']
+- [1757416694] -> Running ResearchAgent.search()
+- [1757416694]    Research returned 6 hits
+- [1757416694] -> Running AnalysisAgent.analyze()
+- [1757416694]    Analysis done. Top sources:  (score=0.46, len=733);  (score=0.45, len=429); Transformer architectures (score=0.42, len=115). Recommendation: prefer '' for this query.
+- [1757416694] Stored memory id: 0053ceb8-bcb2-497a-aa44-c4704916a389 (topic: )

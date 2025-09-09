@@ -1,0 +1,37 @@
+Scenario: simple_query
+Query: What are the main types of neural networks?
+Time: 2025-09-09T11:18:14.065332Z
+Plan: ['research']
+Memory ID: f5b8080e-a759-4f2a-a6a2-338707b38224
+Confidence: 0.7885881861050924
+
+Final Answer:
+
+: : We learned that main neural network types include CNNs, RNNs, and Transformers.
+
+: : We learned that main neural network types include CNNs, RNNs, a
+
+: We learned that main neural network types include CNNs, RNNs, and Transformers.
+
+: : We learned that main neural network types include CNNs, RNNs, and Transformers.
+
+Neural networks - overview: Neural networks are a set of algorithms
+
+Trace (short):
+- [1757416694] Received query: What are the main types of neural networks?
+- [1757416694] Plan: ['research']
+- [1757416694] -> Running ResearchAgent.search()
+- [1757416694]    Research returned 6 hits
+- [1757416694] Stored memory id: dd1aaa2b-bc77-4e6c-9d07-404499951cc8 (topic: )
+- [1757416694] Received query: Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs.
+- [1757416694] Plan: ['research', 'analysis']
+- [1757416694] -> Running ResearchAgent.search()
+- [1757416694]    Research returned 6 hits
+- [1757416694] -> Running AnalysisAgent.analyze()
+- [1757416694]    Analysis done. Top sources:  (score=0.45, len=429); Transformer architectures (score=0.42, len=115);  (score=0.27, len=353). Recommendation: prefer '' for this query.
+- [1757416694] Stored memory id: 56274341-944a-4847-a7b1-f631bd23e5be (topic: )
+- [1757416694] Received query: What are the main types of neural networks?
+- [1757416694] Plan: ['research']
+- [1757416694] -> Running ResearchAgent.search()
+- [1757416694]    Research returned 6 hits
+- [1757416694] Stored memory id: f5b8080e-a759-4f2a-a6a2-338707b38224 (topic: )

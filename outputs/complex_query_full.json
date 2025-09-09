@@ -1,0 +1,218 @@
+{
+  "query": "Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs.",
+  "plan": [
+    "research",
+    "analysis"
+  ],
+  "research": [
+    {
+      "id": "56274341-944a-4847-a7b1-f631bd23e5be",
+      "title": "",
+      "text": "Top sources:  (score=0.45, len=429); Transformer architectures (score=0.42, len=115);  (score=0.27, len=353). Recommendation: prefer '' for this query.\n\nSources:\n- : Transformer architectures: Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence.\n\n: : We learned t...\n- Transformer architectures: Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence....\n- : : We learned that main neural network types include CNNs, RNNs, and Transformers.\n\nNeural networks - overview: Neural networks are a set of algorithms, modeled ...\n- : We learned that main neural network types include CNNs, RNNs, and Transformers....\n",
+      "score": 0.4580320715904236,
+      "source": "kb",
+      "agent": "ResearchAgent",
+      "confidence": 0.4580320715904236,
+      "norm_score": 0.4580320715904236
+    },
+    {
+      "id": "9a9d8dda-f693-488b-b2ad-4b770e2b2fbc",
+      "title": "",
+      "text": "Transformer architectures: Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence.\n\n: : We learned that main neural network types include CNNs, RNNs, and Transformers.\n\nNeural networks - overview: Neural networks are a set of algorithms, modeled loosely after the human brain, designed \n\n: We learned that main neural network types include CNNs, RNNs, and Transformers.",
+      "score": 0.45314550399780273,
+      "source": "kb",
+      "agent": "ResearchAgent",
+      "confidence": 0.45314550399780273,
+      "norm_score": 0.45314550399780273
+    },
+    {
+      "id": "doc4",
+      "title": "Transformer architectures",
+      "text": "Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence.",
+      "score": 0.41776108741760254,
+      "source": "kb",
+      "agent": "ResearchAgent",
+      "confidence": 0.41776108741760254,
+      "norm_score": 0.41776108741760254
+    },
+    {
+      "id": "2285690f-15f8-4f69-b10b-b1ef00bbd295",
+      "title": "",
+      "text": ": We learned that main neural network types include CNNs, RNNs, and Transformers.\n\nNeural networks - overview: Neural networks are a set of algorithms, modeled loosely after the human brain, designed to recognize patterns.\n\nConvolutional Neural Networks: Convolutional neural networks (CNNs) are specialized for processing grid-like data such as images.",
+      "score": 0.2660655379295349,
+      "source": "kb",
+      "agent": "ResearchAgent",
+      "confidence": 0.2660655379295349,
+      "norm_score": 0.2660655379295349
+    },
+    {
+      "id": "733be37b-1590-43b3-99cb-8aeba378146a",
+      "title": "",
+      "text": "We learned that main neural network types include CNNs, RNNs, and Transformers.",
+      "score": 0.2553228735923767,
+      "source": "kb",
+      "agent": "ResearchAgent",
+      "confidence": 0.2553228735923767,
+      "norm_score": 0.2553228735923767
+    },
+    {
+      "id": "doc2",
+      "title": "Convolutional Neural Networks",
+      "text": "Convolutional neural networks (CNNs) are specialized for processing grid-like data such as images.",
+      "score": 0.23810435831546783,
+      "source": "kb",
+      "agent": "ResearchAgent",
+      "confidence": 0.23810435831546783,
+      "norm_score": 0.23810435831546783
+    }
+  ],
+  "analysis": {
+    "summary": "Top sources:  (score=0.46, len=733);  (score=0.45, len=429); Transformer architectures (score=0.42, len=115). Recommendation: prefer '' for this query.",
+    "comparisons": [
+      {
+        "id": "56274341-944a-4847-a7b1-f631bd23e5be",
+        "title": "",
+        "score": 0.4580320715904236,
+        "text_length": 733
+      },
+      {
+        "id": "9a9d8dda-f693-488b-b2ad-4b770e2b2fbc",
+        "title": "",
+        "score": 0.45314550399780273,
+        "text_length": 429
+      },
+      {
+        "id": "doc4",
+        "title": "Transformer architectures",
+        "score": 0.41776108741760254,
+        "text_length": 115
+      },
+      {
+        "id": "2285690f-15f8-4f69-b10b-b1ef00bbd295",
+        "title": "",
+        "score": 0.2660655379295349,
+        "text_length": 353
+      },
+      {
+        "id": "733be37b-1590-43b3-99cb-8aeba378146a",
+        "title": "",
+        "score": 0.2553228735923767,
+        "text_length": 79
+      },
+      {
+        "id": "doc2",
+        "title": "Convolutional Neural Networks",
+        "score": 0.23810435831546783,
+        "text_length": 98
+      }
+    ],
+    "recommended": {
+      "id": "56274341-944a-4847-a7b1-f631bd23e5be",
+      "title": "",
+      "score": 0.4580320715904236,
+      "text_length": 733
+    },
+    "confidence": 0.4429795543352763
+  },
+  "final_text": "Top sources:  (score=0.46, len=733);  (score=0.45, len=429); Transformer architectures (score=0.42, len=115). Recommendation: prefer '' for this query.\n\nSources:\n- : Top sources:  (score=0.45, len=429); Transformer architectures (score=0.42, len=115);  (score=0.27, len=353). Recommendation: prefer '' for this query.\n\nSources...\n- : Transformer architectures: Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence.\n\n: : We learned t...\n- Transformer architectures: Transformers use attention mechanisms and are effective for many NLP tasks; they scale well and replace recurrence....\n- : : We learned that main neural network types include CNNs, RNNs, and Transformers.\n\nNeural networks - overview: Neural networks are a set of algorithms, modeled ...\n",
+  "final_confidence": 0.4429795543352763,
+  "memory_id": "0053ceb8-bcb2-497a-aa44-c4704916a389",
+  "trace": [
+    {
+      "ts": 1757416694,
+      "msg": "Received query: What are the main types of neural networks?"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Plan: ['research']"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "-> Running ResearchAgent.search()"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "   Research returned 6 hits"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Stored memory id: dd1aaa2b-bc77-4e6c-9d07-404499951cc8 (topic: )"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Received query: Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs."
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Plan: ['research', 'analysis']"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "-> Running ResearchAgent.search()"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "   Research returned 6 hits"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "-> Running AnalysisAgent.analyze()"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "   Analysis done. Top sources:  (score=0.45, len=429); Transformer architectures (score=0.42, len=115);  (score=0.27, len=353). Recommendation: prefer '' for this query."
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Stored memory id: 56274341-944a-4847-a7b1-f631bd23e5be (topic: )"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Received query: What are the main types of neural networks?"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Plan: ['research']"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "-> Running ResearchAgent.search()"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "   Research returned 6 hits"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Stored memory id: f5b8080e-a759-4f2a-a6a2-338707b38224 (topic: )"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Received query: Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs."
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Plan: ['research', 'analysis']"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "-> Running ResearchAgent.search()"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "   Research returned 6 hits"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "-> Running AnalysisAgent.analyze()"
+    },
+    {
+      "ts": 1757416694,
+      "msg": "   Analysis done. Top sources:  (score=0.46, len=733);  (score=0.45, len=429); Transformer architectures (score=0.42, len=115). Recommendation: prefer '' for this query."
+    },
+    {
+      "ts": 1757416694,
+      "msg": "Stored memory id: 0053ceb8-bcb2-497a-aa44-c4704916a389 (topic: )"
+    }
+  ]
+}

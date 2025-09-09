@@ -1,0 +1,25 @@
+Scenario: collaborative_v2
+Query: Compare two machine-learning approaches (CNN vs Transformer) and recommend which is better for image classification.
+Time: 2025-09-09T11:18:14.201017Z
+Plan: ['research', 'analysis']
+Memory ID: 41d4d780-6527-431c-b7e4-329cc3699604
+Confidence: 0.5861044526100159
+
+Final Answer:
+
+Analysis summary:
+Top sources: CNNs vs Transformers for vision (score=0.77, len=182);  (score=0.50, len=804);  (score=0.49, len=353). Recommendation: prefer 'CNNs vs Transformers for vision' for this query.
+
+Top sources with provenance:
+- [web] CNNs vs Transformers for vision (score=0.769)
+- [memory] 479270ce-1f62-4fe9-9aa7-2edf687c3794 (score=0.499)
+- [memory] 2285690f-15f8-4f69-b10b-b1ef00bbd295 (score=0.490)
+- [memory] 9a9d8dda-f693-488b-b2ad-4b770e2b2fbc (score=0.487)
+- [kb] Convolutional Neural Networks (score=0.454)
+
+Trace:
+- [1757416694] Received: Compare two machine-learning approaches (CNN vs Transformer) and recommend which is better for image classification.
+- [1757416694] Plan: ['research', 'analysis']
+- [1757416694] Research hits: 6
+- [1757416694] Analysis done
+- [1757416694] Stored memory id: 41d4d780-6527-431c-b7e4-329cc3699604 (topic: CNNs vs Transformers for vision)
